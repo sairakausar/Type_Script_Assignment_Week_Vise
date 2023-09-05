@@ -1,14 +1,7 @@
-// // object`s of theme are same 
 
-// var twwets = [{id:1, title: "sf", descrption: "yedgs"},]
-
-// typecar type = { company? : statusbar, isUsed:boolean, year: 2023}
-
-// if we no give the type or 
-// then we use ?
-//...............
 //          write a program that print all the car company
 //        and year from the list make sure car is an object
+
 type cartype ={ company : string,isUsedCar?: boolean, year: number}
 var car : cartype [] = [{
     company:"honda",
@@ -56,6 +49,9 @@ var car : cartype [] = [{
 ]
 for (let index = 0 ; index < 1; index++){
     console.log(car);  
+}
+for (let index = 0 ; index < car.length; index++){
+    console.log(car[index].year);  
 }
 console.log(car[0].year,car[1].year,car[2].year,car[3].year,car[4].year,car[5].year,car[6].year,car[7].year,car[8].year,car[9].year);
 
